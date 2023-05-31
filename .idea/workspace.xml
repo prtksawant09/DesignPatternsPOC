@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="Singleton and Strategy patterns POC added.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/singleton/SingletonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/HeavyVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/OffroadVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/PassengerVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/SportVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/drivecapability/HeavyDrive_Strategy_Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/drivecapability/IDriveStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/drivecapability/NormalDrive_Strategy_Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/strategy/drivecapability/SportDrive_Strategy_Impl.java" afterDir="false" />
+    <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="Observer pattern POC added.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/observer/IObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/observer/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/observer/Observable_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/observer/Observer_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Executor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.pratik.Executor" />
@@ -85,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685416758932</updated>
     </task>
+    <task id="LOCAL-00001" summary="Singleton and Strategy patterns POC added.">
+      <created>1685420727436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685420727436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton and Strategy patterns POC added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton and Strategy patterns POC added." />
+    <MESSAGE value="Observer pattern POC added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern POC added." />
   </component>
 </project>
