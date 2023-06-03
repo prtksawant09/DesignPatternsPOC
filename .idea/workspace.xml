@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="Observer pattern POC added.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/observer/IObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/observer/IObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/observer/Observable_Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/observer/Observer_Impl.java" afterDir="false" />
+    <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="Decorator pattern POC added.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/BasePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/pizza/ChickenDelight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/pizza/Farmhouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/pizza/Margherita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/pizza/VegDelight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/toppings/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/toppings/ChickenPepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/toppings/ChickenSausage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/toppings/Corn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/decorator/toppings/ToppingsDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" afterDir="false" />
     </list>
@@ -80,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685420727436</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Observer pattern POC added.">
+      <created>1685506971971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685506971971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton and Strategy patterns POC added." />
     <MESSAGE value="Observer pattern POC added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Observer pattern POC added." />
+    <MESSAGE value="Decorator pattern POC added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator pattern POC added." />
   </component>
 </project>

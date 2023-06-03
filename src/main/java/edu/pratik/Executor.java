@@ -1,5 +1,12 @@
 package edu.pratik;
 
+import edu.pratik.decorator.BasePizza;
+import edu.pratik.decorator.pizza.ChickenDelight;
+import edu.pratik.decorator.pizza.Margherita;
+import edu.pratik.decorator.pizza.VegDelight;
+import edu.pratik.decorator.toppings.Cheese;
+import edu.pratik.decorator.toppings.ChickenPepperoni;
+import edu.pratik.decorator.toppings.ChickenSausage;
 import edu.pratik.observer.IObservable;
 import edu.pratik.observer.IObserver;
 import edu.pratik.observer.Observable_Impl;
@@ -14,7 +21,26 @@ public class Executor {
         executor.singletonDemo();
         executor.strategyDemo();
         executor.observerDemo();
+        executor.decoratorDemo();
+    }
 
+    private void decoratorDemo() {
+        BasePizza pizza = new ChickenDelight();
+        System.out.println("ChickenDelight pizza.getCost(): "+pizza.getCost());
+        pizza = new Cheese(pizza);
+        System.out.println("ChickenDelight with extra cheese pizza.getCost(): "+pizza.getCost());
+        pizza = new ChickenPepperoni(new ChickenSausage(pizza));
+        System.out.println("ChickenDelight with extra ChickenPepperoni ChickenSausage Cheese pizza.getCost(): "+pizza.getCost());
+
+        pizza = new Margherita();
+        System.out.println("Margherita pizza.getCost(): "+pizza.getCost());
+        pizza = new Cheese(pizza);
+        System.out.println("Margherita with extra Cheese pizza.getCost(): "+pizza.getCost());
+        pizza = new Cheese(pizza);
+        System.out.println("Margherita with extra double Cheese pizza.getCost(): "+pizza.getCost());
+
+        pizza = new VegDelight();
+        System.out.println("VegDelight pizza.getCost(): "+pizza.getCost());
     }
 
     private void observerDemo() {
