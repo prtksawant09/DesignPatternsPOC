@@ -7,6 +7,9 @@ import edu.pratik.decorator.pizza.VegDelight;
 import edu.pratik.decorator.toppings.Cheese;
 import edu.pratik.decorator.toppings.ChickenPepperoni;
 import edu.pratik.decorator.toppings.ChickenSausage;
+import edu.pratik.factory.ClassRegistry;
+import edu.pratik.factory.Shape;
+import edu.pratik.factory.Shape_Factory;
 import edu.pratik.observer.IObservable;
 import edu.pratik.observer.IObserver;
 import edu.pratik.observer.Observable_Impl;
@@ -22,6 +25,19 @@ public class Executor {
         executor.strategyDemo();
         executor.observerDemo();
         executor.decoratorDemo();
+        executor.factoryDemo();
+    }
+
+    private void factoryDemo() {
+        Shape shape = Shape_Factory.getShape(ClassRegistry.CIRCLE);
+        if(shape!=null)
+            shape.draw();
+        shape = Shape_Factory.getShape(ClassRegistry.RECTANGLE);
+        if(shape!=null)
+            shape.draw();
+        shape = Shape_Factory.getShape(ClassRegistry.SQUARE);
+        if(shape!=null)
+            shape.draw();
     }
 
     private void decoratorDemo() {
