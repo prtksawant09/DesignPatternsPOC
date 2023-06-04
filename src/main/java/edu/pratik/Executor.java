@@ -15,6 +15,8 @@ import edu.pratik.observer.IObservable;
 import edu.pratik.observer.IObserver;
 import edu.pratik.observer.Observable_Impl;
 import edu.pratik.observer.Observer_Impl;
+import edu.pratik.proxy.users.User;
+import edu.pratik.proxy.users.UserType;
 import edu.pratik.singleton.SingletonClass;
 import edu.pratik.strategy.*;
 
@@ -28,6 +30,39 @@ public class Executor {
         executor.decoratorDemo();
         executor.factoryDemo();
         executor.loggerDemo();
+        executor.proxyDemo();
+    }
+
+    private void proxyDemo() {
+        User makerUser = new User(UserType.MAKER);
+        User checkerUser = new User(UserType.CHECKER);
+        User AdminUser = new User(UserType.ADMIN);
+
+        makerUser.addRecord("Task1");
+        makerUser.addRecord("Task2");
+        makerUser.addRecord("Task3");
+        makerUser.addRecord("Task4");
+        makerUser.approveRecord("Task1");
+        makerUser.rejectRecord("Task2");
+        makerUser.removeRecord("Task3");
+        makerUser.getRecord();
+
+        checkerUser.addRecord("Task3");
+        checkerUser.addRecord("Task4");
+        checkerUser.approveRecord("Task3");
+        checkerUser.rejectRecord("Task4");
+        checkerUser.approveRecord("Task1");
+        checkerUser.rejectRecord("Task2");
+        checkerUser.removeRecord("Task4");
+        checkerUser.getRecord();
+
+        AdminUser.addRecord("Task5");
+        AdminUser.addRecord("Task6");
+        AdminUser.approveRecord("Task5");
+        AdminUser.rejectRecord("Task6");
+        AdminUser.removeRecord("Task2");
+        AdminUser.removeRecord("Task4");
+        AdminUser.getRecord();
     }
 
     private void loggerDemo() {
