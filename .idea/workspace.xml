@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="Factory pattern POC added.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/factory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/factory/ClassRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/factory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/factory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/factory/Shape_Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/factory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/chainofresponsibility/DebugLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/chainofresponsibility/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/chainofresponsibility/InfoLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/chainofresponsibility/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/chainofresponsibility/TraceLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" afterDir="false" />
     </list>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685804244932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Factory pattern POC added.">
+      <created>1685813211353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685813211353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,5 +1,6 @@
 package edu.pratik;
 
+import edu.pratik.chainofresponsibility.*;
 import edu.pratik.decorator.BasePizza;
 import edu.pratik.decorator.pizza.ChickenDelight;
 import edu.pratik.decorator.pizza.Margherita;
@@ -26,6 +27,16 @@ public class Executor {
         executor.observerDemo();
         executor.decoratorDemo();
         executor.factoryDemo();
+        executor.loggerDemo();
+    }
+
+    private void loggerDemo() {
+        Logger logger = new ErrorLogger(new InfoLogger(new DebugLogger(new TraceLogger(null))));
+
+        logger.log(Logger.ERROR, "This is error logger");
+        logger.log(Logger.INFO, "This is info logger");
+        logger.log(Logger.DEBUG, "This is debug logger");
+        logger.log(Logger.TRACE, "This is trace logger");
     }
 
     private void factoryDemo() {
