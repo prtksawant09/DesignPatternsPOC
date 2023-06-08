@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="testing branch rule." />
+    <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="testing branch rule.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686226348173</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="testing branch rule.">
+      <created>1686226866112</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686226866112</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
