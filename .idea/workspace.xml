@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="Proxy pattern POC added.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a9ded780-28df-4433-9b14-110c8aadd220" name="Changes" comment="testing branch rule.">
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/pratik/Executor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -137,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685883259777</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="testing branch rule.">
+      <created>1686225964363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686225964363</updated>
+    </task>
+    <task id="LOCAL-00008" summary="testing branch rule.">
+      <created>1686226196246</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686226196246</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +178,7 @@
     <MESSAGE value="Factory pattern POC added." />
     <MESSAGE value="Chain of responsibility pattern POC added." />
     <MESSAGE value="Proxy pattern POC added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy pattern POC added." />
+    <MESSAGE value="testing branch rule." />
+    <option name="LAST_COMMIT_MESSAGE" value="testing branch rule." />
   </component>
 </project>
