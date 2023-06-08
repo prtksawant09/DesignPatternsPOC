@@ -31,7 +31,6 @@ public class Executor {
         executor.factoryDemo();
         executor.loggerDemo();
         executor.proxyDemo();
-        //test
     }
 
     private void proxyDemo() {
